@@ -1,0 +1,161 @@
+* {
+    /*border: 1px solid red !important;*/
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+body {
+    background: #9ebccd;
+    color: #ffffff;
+}
+.center {
+    margin: 0 0 20px 49%;
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.mainContent {
+    background: url("../img/portfolioMan.jpeg");
+    background-position-y: -90px;
+    background-position-x: -100px;
+    background-size: cover;
+}
+.name {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+h2 {
+    font-size: 50px;
+    margin: 80px 0;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 40px 0;
+}
+.projects {
+    max-width: 380px;
+    margin-left: 10px;
+    opacity: .7;
+}
+.projects:hover {
+    opacity: 1;
+}
+.projectTitle {
+    margin-bottom: 20px;
+}
+.centerText {
+    text-align: center;
+}
+.rightAlignText {
+    text-align: right;
+}
+.codeLanguageTop {
+    margin-right: 20px;
+    opacity: .7;
+}
+.codeLanguageMiddle {
+    margin-left: 40px;
+    opacity: .7;
+}
+.codeLanguageBottom {
+    margin-left: 20px;
+    opacity: .7;
+}
+.head {
+    background-color: #8eacbd;
+    margin: 0;
+}
+.sectionHeading {
+ margin-bottom: 0;
+}
+.bottomProjectRow {
+    margin: 0;
+}
+.foot {
+    background-color: #8eacbd;
+    padding: 50px 0;
+    margin: 0;
+}
+.logo {
+    width: 100px;
+}
+@media only screen and (max-width: 500px){
+    p {
+        display: none;
+    }
+}
